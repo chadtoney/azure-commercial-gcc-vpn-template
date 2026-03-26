@@ -12,6 +12,8 @@ infra/parameters/*.prod.parameters.json
 comparison/
 *.docx
 *.doc
+commercial-gcc-site-to-site-vpn-guide.md
+federated-fabric-validation-findings.md
 
 # Secrets and credentials
 .env
