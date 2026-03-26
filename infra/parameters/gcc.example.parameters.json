@@ -1,0 +1,52 @@
+{
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "prefix": {
+      "value": "sample-gcc"
+    },
+    "location": {
+      "value": "usgovvirginia"
+    },
+    "tenantId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "vnetAddressPrefixes": {
+      "value": [
+        "10.10.0.0/16"
+      ]
+    },
+    "gatewaySubnetPrefix": {
+      "value": "10.10.1.0/27"
+    },
+    "workloadSubnetPrefix": {
+      "value": "10.10.2.0/24"
+    },
+    "vpnGatewaySku": {
+      "value": "VpnGw2AZ"
+    },
+    "remoteGatewayPublicIp": {
+      "value": "198.51.100.10"
+    },
+    "remoteAddressPrefixes": {
+      "value": [
+        "10.20.0.0/16"
+      ]
+    },
+    "createKeyVault": {
+      "value": true
+    },
+    "ipsecPolicyProfile": {
+      "value": {
+        "enabled": true,
+        "ikeEncryption": "AES256",
+        "ikeIntegrity": "SHA256",
+        "dhGroup": "DHGroup14",
+        "ipsecEncryption": "AES256",
+        "ipsecIntegrity": "SHA256",
+        "pfsGroup": "PFS2048",
+        "saLifeTimeSeconds": 27000,
+        "saDataSizeKilobytes": 102400000
+      }
+    }
+  }
+}

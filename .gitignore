@@ -1,0 +1,41 @@
+# Local environment notes and private working files
+notes/
+local-*.md
+
+# Environment-specific parameter files (keep examples in repo)
+infra/parameters/*.dev.parameters.json
+infra/parameters/*.test.parameters.json
+infra/parameters/*.prod.parameters.json
+!infra/parameters/*.example.parameters.json
+
+# Sensitive/helper artifacts and draft exports
+comparison/
+*.docx
+*.doc
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+*.cer
+*.crt
+*.secrets.*
+
+# Deployment artifacts and logs
+deployment-outputs/
+validation-artifacts/
+*.log
+*.tmp
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python/Node transient artifacts
+__pycache__/
+*.pyc
+node_modules/
