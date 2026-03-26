@@ -14,6 +14,9 @@ comparison/
 *.doc
 commercial-gcc-site-to-site-vpn-guide.md
 federated-fabric-validation-findings.md
+*deployment-comparison*.json
+*inventory*.json
+*resource-list*.json
 
 # Secrets and credentials
 .env

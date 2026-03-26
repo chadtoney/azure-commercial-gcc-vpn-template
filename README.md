@@ -23,9 +23,9 @@ Azure Commercial VNet and Azure GCC VNet are connected with route-based VPN gate
 
 ## Current Verified Topology
 
-- Commercial network resources in `<commercial-network-rg>`.
-- GCC network resources in `<gcc-network-rg>`.
-- Workload resources may exist in separate resource groups (for example `<workload-rg>`).
+- Commercial and GCC VPN resources can be deployed in separate resource groups.
+- Workload resources may live in different resource groups than VPN resources.
+- Use `scripts/validate-vpn.ps1` and Azure CLI inventory commands to confirm your active environment layout.
 
 ## What This Does Not Implement
 
