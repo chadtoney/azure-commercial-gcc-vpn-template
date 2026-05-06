@@ -210,5 +210,6 @@ For reference, sanitized example parameter files are available:
 
 - [Validation Runbook](docs/validation-runbook.md): Post-deployment health checks
 - [Security Baseline](docs/security-baseline.md): Microsoft Learn-aligned controls
+- [Entra B2B Guide](docs/entra-b2b-guide.md): Cross-tenant identity federation setup for Commercial ↔ GCC
 - [Contributing Guide](CONTRIBUTING.md): How to contribute to this repository
 - [Troubleshooting](TROUBLESHOOTING.md): Common issues and solutions
